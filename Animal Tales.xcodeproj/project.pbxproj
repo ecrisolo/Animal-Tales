@@ -9,6 +9,11 @@
 /* Begin PBXBuildFile section */
 		1A7F01A12026BC3700FBEC67 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F01A02026BC3700FBEC67 /* SearchViewController.swift */; };
 		1A7F01A32026BEAF00FBEC67 /* UploadImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F01A22026BEAF00FBEC67 /* UploadImageViewController.swift */; };
+		1A7F01AB20277AF900FBEC67 /* TaleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F01AA20277AF900FBEC67 /* TaleTableViewCell.swift */; };
+		1A7F01AD202781F700FBEC67 /* TalesData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A7F01AC202781F700FBEC67 /* TalesData.swift */; };
+		1A7F01B120278B2100FBEC67 /* doggo.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A7F01AE20278B2000FBEC67 /* doggo.jpg */; };
+		1A7F01B220278B2100FBEC67 /* puppy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A7F01AF20278B2000FBEC67 /* puppy.jpg */; };
+		1A7F01B320278B2100FBEC67 /* strut.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A7F01B020278B2000FBEC67 /* strut.jpg */; };
 		E836CE0E20268E830068080C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836CE0D20268E830068080C /* AppDelegate.swift */; };
 		E836CE1020268E830068080C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E836CE0F20268E830068080C /* ViewController.swift */; };
 		E836CE1320268E830068080C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E836CE1120268E830068080C /* Main.storyboard */; };
@@ -38,6 +43,11 @@
 /* Begin PBXFileReference section */
 		1A7F01A02026BC3700FBEC67 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		1A7F01A22026BEAF00FBEC67 /* UploadImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadImageViewController.swift; sourceTree = "<group>"; };
+		1A7F01AA20277AF900FBEC67 /* TaleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaleTableViewCell.swift; sourceTree = "<group>"; };
+		1A7F01AC202781F700FBEC67 /* TalesData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TalesData.swift; sourceTree = "<group>"; };
+		1A7F01AE20278B2000FBEC67 /* doggo.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = doggo.jpg; sourceTree = "<group>"; };
+		1A7F01AF20278B2000FBEC67 /* puppy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = puppy.jpg; sourceTree = "<group>"; };
+		1A7F01B020278B2000FBEC67 /* strut.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = strut.jpg; sourceTree = "<group>"; };
 		E836CE0A20268E830068080C /* Animal Tales.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Animal Tales.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E836CE0D20268E830068080C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E836CE0F20268E830068080C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -101,6 +111,9 @@
 		E836CE0C20268E830068080C /* Animal Tales */ = {
 			isa = PBXGroup;
 			children = (
+				1A7F01AE20278B2000FBEC67 /* doggo.jpg */,
+				1A7F01AF20278B2000FBEC67 /* puppy.jpg */,
+				1A7F01B020278B2000FBEC67 /* strut.jpg */,
 				E836CE0D20268E830068080C /* AppDelegate.swift */,
 				E836CE0F20268E830068080C /* ViewController.swift */,
 				E836CE1120268E830068080C /* Main.storyboard */,
@@ -109,6 +122,8 @@
 				E836CE1920268E830068080C /* Info.plist */,
 				1A7F01A02026BC3700FBEC67 /* SearchViewController.swift */,
 				1A7F01A22026BEAF00FBEC67 /* UploadImageViewController.swift */,
+				1A7F01AA20277AF900FBEC67 /* TaleTableViewCell.swift */,
+				1A7F01AC202781F700FBEC67 /* TalesData.swift */,
 			);
 			path = "Animal Tales";
 			sourceTree = "<group>";
@@ -238,8 +253,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7F01B120278B2100FBEC67 /* doggo.jpg in Resources */,
+				1A7F01B220278B2100FBEC67 /* puppy.jpg in Resources */,
 				E836CE1820268E830068080C /* LaunchScreen.storyboard in Resources */,
 				E836CE1520268E830068080C /* Assets.xcassets in Resources */,
+				1A7F01B320278B2100FBEC67 /* strut.jpg in Resources */,
 				E836CE1320268E830068080C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,8 +283,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A7F01AB20277AF900FBEC67 /* TaleTableViewCell.swift in Sources */,
 				1A7F01A12026BC3700FBEC67 /* SearchViewController.swift in Sources */,
 				1A7F01A32026BEAF00FBEC67 /* UploadImageViewController.swift in Sources */,
+				1A7F01AD202781F700FBEC67 /* TalesData.swift in Sources */,
 				E836CE1020268E830068080C /* ViewController.swift in Sources */,
 				E836CE0E20268E830068080C /* AppDelegate.swift in Sources */,
 			);

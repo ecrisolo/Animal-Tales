@@ -1,0 +1,688 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		08EB72002370102B36D845050FEF70B6 /* Pods-Animal TalesTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E05EF0A25F7AABDE6BAC9A0C09F00E9C /* Pods-Animal TalesTests-dummy.m */; };
+		30A8E031B5B0631E3541C3052BE93D15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		61B61A1E06E982D5652BF37590525DE9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		6C4341CBC37E1919292D0281A6B5B12E /* Pods-Animal Tales-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 95399EE46B11444BFDC9C845F8C356BA /* Pods-Animal Tales-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		712E1DC5F39F9A6F0D51F376EB61F46A /* Pods-Animal TalesUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C5518978A4061352DF5BD0471ACF7D31 /* Pods-Animal TalesUITests-dummy.m */; };
+		99825BE7F0C49BF07584E7EC0FB421D3 /* Pods-Animal Tales-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6DF3ADA5173BE867048A7F5C077E331F /* Pods-Animal Tales-dummy.m */; };
+		C4B14BB935D925E7CFB094A131A8EFAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		CB3C588F827D52D1C9454232AA541320 /* Pods-Animal TalesTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3879F400D0B13F0412AB6098320735FB /* Pods-Animal TalesTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCF03CF20E05CF327700EE0756084CF1 /* Pods-Animal TalesUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB9C50FBF80FFCF49AB541D03A88E8F /* Pods-Animal TalesUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0063AE6D1C9CA05CFA52D053016725A6 /* Pods-Animal Tales.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Tales.release.xcconfig"; sourceTree = "<group>"; };
+		02D4CD94B1799986B1BB90D6248574F1 /* Pods-Animal Tales.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animal Tales.modulemap"; sourceTree = "<group>"; };
+		09A652F9367CCDEC7B6124103DFB085D /* Pods-Animal TalesTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal TalesTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		09F6AD2E7CA350C1F26BEE3A774512EC /* Pods-Animal TalesTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animal TalesTests.modulemap"; sourceTree = "<group>"; };
+		0F526BB744DCAFD00E1A19B499FD8A20 /* Pods-Animal Tales-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal Tales-frameworks.sh"; sourceTree = "<group>"; };
+		15FCE4E08B5ED174F12CFC49374B3D2C /* Pods-Animal TalesTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animal TalesTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		208676766E89F90B47F4C1B8B0C32021 /* Pods-Animal TalesUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Animal TalesUITests.modulemap"; sourceTree = "<group>"; };
+		23B1B618D9F2CF5821FFF63EF4395EA1 /* Pods-Animal TalesUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal TalesUITests-resources.sh"; sourceTree = "<group>"; };
+		259C33A800588CB10EE196D60414F7DE /* Pods-Animal TalesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal TalesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		30690619FDEC0A9919931F799EC00F68 /* Pods-Animal Tales-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal Tales-resources.sh"; sourceTree = "<group>"; };
+		34B90A2A8FEAFF7FDA898F7975D97F15 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3879F400D0B13F0412AB6098320735FB /* Pods-Animal TalesTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animal TalesTests-umbrella.h"; sourceTree = "<group>"; };
+		414DBDAD2F573D0F52BE3F3400CB7E59 /* Pods-Animal TalesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal TalesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		4587E62914780822A1D3AF95484B10EE /* Pods-Animal Tales-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animal Tales-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C6340BC13394E40FD4F0FC9E3F83F59 /* Pods-Animal TalesTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal TalesTests-frameworks.sh"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		6DF3ADA5173BE867048A7F5C077E331F /* Pods-Animal Tales-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animal Tales-dummy.m"; sourceTree = "<group>"; };
+		6E25270B1B06B767FAD6FDCCAD2D53F8 /* Pods-Animal TalesUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Animal TalesUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8C6613C801BD5647F72174AD0B7227F3 /* Pods_Animal_TalesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Animal_TalesTests.framework; path = "Pods-Animal TalesTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95399EE46B11444BFDC9C845F8C356BA /* Pods-Animal Tales-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animal Tales-umbrella.h"; sourceTree = "<group>"; };
+		9DB9C50FBF80FFCF49AB541D03A88E8F /* Pods-Animal TalesUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Animal TalesUITests-umbrella.h"; sourceTree = "<group>"; };
+		A02FF7937FD4F487E07C4576B3875861 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE2D5403B4A4B4E463CBC45FF0E116DE /* Pods-Animal Tales.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal Tales.debug.xcconfig"; sourceTree = "<group>"; };
+		AE3DB877BD39D02D86F5D34ADB073E47 /* Pods_Animal_TalesUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Animal_TalesUITests.framework; path = "Pods-Animal TalesUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5518978A4061352DF5BD0471ACF7D31 /* Pods-Animal TalesUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animal TalesUITests-dummy.m"; sourceTree = "<group>"; };
+		CD2A950CE475E8FB013993FB4C9B1FAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDBCC11A944E3FFD108B15544FFE7812 /* Pods-Animal TalesUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal TalesUITests-frameworks.sh"; sourceTree = "<group>"; };
+		DFC19950D21384178F2C55B4B70AC4AD /* Pods-Animal TalesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal TalesTests.release.xcconfig"; sourceTree = "<group>"; };
+		E05EF0A25F7AABDE6BAC9A0C09F00E9C /* Pods-Animal TalesTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Animal TalesTests-dummy.m"; sourceTree = "<group>"; };
+		E335CE3077A4BB01293FFF23F921ED8B /* Pods-Animal TalesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Animal TalesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		ED1D08E80F9930FEBC5DB5180D463484 /* Pods-Animal TalesTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Animal TalesTests-resources.sh"; sourceTree = "<group>"; };
+		F5150B0FC6B37C14769D9F8979B87BCD /* Pods-Animal TalesUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal TalesUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F8AA4301737CAA7AEE550C958A045525 /* Pods-Animal Tales-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Animal Tales-acknowledgements.plist"; sourceTree = "<group>"; };
+		FEE901099CDB650CE03330EDB89F6A40 /* Pods_Animal_Tales.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Animal_Tales.framework; path = "Pods-Animal Tales.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		243521A9333EA53BE51C7C7D1E2D2E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A8E031B5B0631E3541C3052BE93D15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61AB93FC21BA02C076C9FF2443DDBDA4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61B61A1E06E982D5652BF37590525DE9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD08DB9F544E15F3A6D8876EBFF3274A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4B14BB935D925E7CFB094A131A8EFAE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		328AD8499F33B1628412FA09480ED918 /* Pods-Animal Tales */ = {
+			isa = PBXGroup;
+			children = (
+				CD2A950CE475E8FB013993FB4C9B1FAF /* Info.plist */,
+				02D4CD94B1799986B1BB90D6248574F1 /* Pods-Animal Tales.modulemap */,
+				4587E62914780822A1D3AF95484B10EE /* Pods-Animal Tales-acknowledgements.markdown */,
+				F8AA4301737CAA7AEE550C958A045525 /* Pods-Animal Tales-acknowledgements.plist */,
+				6DF3ADA5173BE867048A7F5C077E331F /* Pods-Animal Tales-dummy.m */,
+				0F526BB744DCAFD00E1A19B499FD8A20 /* Pods-Animal Tales-frameworks.sh */,
+				30690619FDEC0A9919931F799EC00F68 /* Pods-Animal Tales-resources.sh */,
+				95399EE46B11444BFDC9C845F8C356BA /* Pods-Animal Tales-umbrella.h */,
+				AE2D5403B4A4B4E463CBC45FF0E116DE /* Pods-Animal Tales.debug.xcconfig */,
+				0063AE6D1C9CA05CFA52D053016725A6 /* Pods-Animal Tales.release.xcconfig */,
+			);
+			name = "Pods-Animal Tales";
+			path = "Target Support Files/Pods-Animal Tales";
+			sourceTree = "<group>";
+		};
+		3D4C1A571EE6BA403A194F9D4C1D7170 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEE901099CDB650CE03330EDB89F6A40 /* Pods_Animal_Tales.framework */,
+				8C6613C801BD5647F72174AD0B7227F3 /* Pods_Animal_TalesTests.framework */,
+				AE3DB877BD39D02D86F5D34ADB073E47 /* Pods_Animal_TalesUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		517DD74BF694566D6FBD7D00001D5570 /* Pods-Animal TalesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A02FF7937FD4F487E07C4576B3875861 /* Info.plist */,
+				208676766E89F90B47F4C1B8B0C32021 /* Pods-Animal TalesUITests.modulemap */,
+				6E25270B1B06B767FAD6FDCCAD2D53F8 /* Pods-Animal TalesUITests-acknowledgements.markdown */,
+				F5150B0FC6B37C14769D9F8979B87BCD /* Pods-Animal TalesUITests-acknowledgements.plist */,
+				C5518978A4061352DF5BD0471ACF7D31 /* Pods-Animal TalesUITests-dummy.m */,
+				DDBCC11A944E3FFD108B15544FFE7812 /* Pods-Animal TalesUITests-frameworks.sh */,
+				23B1B618D9F2CF5821FFF63EF4395EA1 /* Pods-Animal TalesUITests-resources.sh */,
+				9DB9C50FBF80FFCF49AB541D03A88E8F /* Pods-Animal TalesUITests-umbrella.h */,
+				E335CE3077A4BB01293FFF23F921ED8B /* Pods-Animal TalesUITests.debug.xcconfig */,
+				414DBDAD2F573D0F52BE3F3400CB7E59 /* Pods-Animal TalesUITests.release.xcconfig */,
+			);
+			name = "Pods-Animal TalesUITests";
+			path = "Target Support Files/Pods-Animal TalesUITests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				3D4C1A571EE6BA403A194F9D4C1D7170 /* Products */,
+				9A28AD5D6055C05BCB8328342326E387 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A28AD5D6055C05BCB8328342326E387 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				328AD8499F33B1628412FA09480ED918 /* Pods-Animal Tales */,
+				F1874047F475455BE03D8AD14E790444 /* Pods-Animal TalesTests */,
+				517DD74BF694566D6FBD7D00001D5570 /* Pods-Animal TalesUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1874047F475455BE03D8AD14E790444 /* Pods-Animal TalesTests */ = {
+			isa = PBXGroup;
+			children = (
+				34B90A2A8FEAFF7FDA898F7975D97F15 /* Info.plist */,
+				09F6AD2E7CA350C1F26BEE3A774512EC /* Pods-Animal TalesTests.modulemap */,
+				15FCE4E08B5ED174F12CFC49374B3D2C /* Pods-Animal TalesTests-acknowledgements.markdown */,
+				09A652F9367CCDEC7B6124103DFB085D /* Pods-Animal TalesTests-acknowledgements.plist */,
+				E05EF0A25F7AABDE6BAC9A0C09F00E9C /* Pods-Animal TalesTests-dummy.m */,
+				5C6340BC13394E40FD4F0FC9E3F83F59 /* Pods-Animal TalesTests-frameworks.sh */,
+				ED1D08E80F9930FEBC5DB5180D463484 /* Pods-Animal TalesTests-resources.sh */,
+				3879F400D0B13F0412AB6098320735FB /* Pods-Animal TalesTests-umbrella.h */,
+				259C33A800588CB10EE196D60414F7DE /* Pods-Animal TalesTests.debug.xcconfig */,
+				DFC19950D21384178F2C55B4B70AC4AD /* Pods-Animal TalesTests.release.xcconfig */,
+			);
+			name = "Pods-Animal TalesTests";
+			path = "Target Support Files/Pods-Animal TalesTests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E7468747C390684DCE49048083C5A3E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB3C588F827D52D1C9454232AA541320 /* Pods-Animal TalesTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB1C359B505080CCAE677D90A3D0187 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCF03CF20E05CF327700EE0756084CF1 /* Pods-Animal TalesUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8F48907796E4EC2E3FD9A599A901B89 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4341CBC37E1919292D0281A6B5B12E /* Pods-Animal Tales-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EC9231590BDEFC383F5347ABB1A58F3 /* Pods-Animal TalesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4066E3D8461173708C5A8D32968A8379 /* Build configuration list for PBXNativeTarget "Pods-Animal TalesTests" */;
+			buildPhases = (
+				83F3C5A5062D2801334D21750F70251C /* Sources */,
+				61AB93FC21BA02C076C9FF2443DDBDA4 /* Frameworks */,
+				1E7468747C390684DCE49048083C5A3E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Animal TalesTests";
+			productName = "Pods-Animal TalesTests";
+			productReference = 8C6613C801BD5647F72174AD0B7227F3 /* Pods_Animal_TalesTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4B8DF6CB98A55BD77B2C4DF2D76D4B58 /* Pods-Animal Tales */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C0795654445F830B1E952659146BFD05 /* Build configuration list for PBXNativeTarget "Pods-Animal Tales" */;
+			buildPhases = (
+				6336DD2C6CB8E126845B0EBB1EEA3449 /* Sources */,
+				243521A9333EA53BE51C7C7D1E2D2E88 /* Frameworks */,
+				C8F48907796E4EC2E3FD9A599A901B89 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Animal Tales";
+			productName = "Pods-Animal Tales";
+			productReference = FEE901099CDB650CE03330EDB89F6A40 /* Pods_Animal_Tales.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8877D6D9F8BA8B86049B7599940B95BB /* Pods-Animal TalesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D123804436B54929F3F17AC5045A8CF1 /* Build configuration list for PBXNativeTarget "Pods-Animal TalesUITests" */;
+			buildPhases = (
+				08CAB1D01F674D280110F5E0BB7B4174 /* Sources */,
+				AD08DB9F544E15F3A6D8876EBFF3274A /* Frameworks */,
+				8BB1C359B505080CCAE677D90A3D0187 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-Animal TalesUITests";
+			productName = "Pods-Animal TalesUITests";
+			productReference = AE3DB877BD39D02D86F5D34ADB073E47 /* Pods_Animal_TalesUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3D4C1A571EE6BA403A194F9D4C1D7170 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B8DF6CB98A55BD77B2C4DF2D76D4B58 /* Pods-Animal Tales */,
+				1EC9231590BDEFC383F5347ABB1A58F3 /* Pods-Animal TalesTests */,
+				8877D6D9F8BA8B86049B7599940B95BB /* Pods-Animal TalesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		08CAB1D01F674D280110F5E0BB7B4174 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				712E1DC5F39F9A6F0D51F376EB61F46A /* Pods-Animal TalesUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6336DD2C6CB8E126845B0EBB1EEA3449 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99825BE7F0C49BF07584E7EC0FB421D3 /* Pods-Animal Tales-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F3C5A5062D2801334D21750F70251C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08EB72002370102B36D845050FEF70B6 /* Pods-Animal TalesTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0BCE0E354149C74EDD7C2271CAD49DD6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFC19950D21384178F2C55B4B70AC4AD /* Pods-Animal TalesTests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animal TalesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animal TalesTests/Pods-Animal TalesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animal_TalesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		24E4590EEAD866F3C72FA5C60851532E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 259C33A800588CB10EE196D60414F7DE /* Pods-Animal TalesTests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animal TalesTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animal TalesTests/Pods-Animal TalesTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animal_TalesTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2BE4263D4FB1528482F71927A5C0C0A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 414DBDAD2F573D0F52BE3F3400CB7E59 /* Pods-Animal TalesUITests.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animal TalesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animal TalesUITests/Pods-Animal TalesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animal_TalesUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		52963673ADAB30EC57625F006D328D81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		5E66EDB50E7D107AAADE0DF38AF04C92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		7BA9D405052CA109E95E381732360A80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE2D5403B4A4B4E463CBC45FF0E116DE /* Pods-Animal Tales.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animal Tales/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animal Tales/Pods-Animal Tales.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animal_Tales;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D31894DA1494E33F63A01A073259F9BA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0063AE6D1C9CA05CFA52D053016725A6 /* Pods-Animal Tales.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animal Tales/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animal Tales/Pods-Animal Tales.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animal_Tales;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F10FFFD8166B3AC20C0C67CDF3D43016 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E335CE3077A4BB01293FFF23F921ED8B /* Pods-Animal TalesUITests.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Animal TalesUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Animal TalesUITests/Pods-Animal TalesUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_Animal_TalesUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E66EDB50E7D107AAADE0DF38AF04C92 /* Debug */,
+				52963673ADAB30EC57625F006D328D81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4066E3D8461173708C5A8D32968A8379 /* Build configuration list for PBXNativeTarget "Pods-Animal TalesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24E4590EEAD866F3C72FA5C60851532E /* Debug */,
+				0BCE0E354149C74EDD7C2271CAD49DD6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C0795654445F830B1E952659146BFD05 /* Build configuration list for PBXNativeTarget "Pods-Animal Tales" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BA9D405052CA109E95E381732360A80 /* Debug */,
+				D31894DA1494E33F63A01A073259F9BA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D123804436B54929F3F17AC5045A8CF1 /* Build configuration list for PBXNativeTarget "Pods-Animal TalesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F10FFFD8166B3AC20C0C67CDF3D43016 /* Debug */,
+				2BE4263D4FB1528482F71927A5C0C0A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
